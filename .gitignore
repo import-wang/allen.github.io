@@ -1,0 +1,12 @@
+# 忽略特定的文件夹名
+venv/
+env/
+.venv/
+.env/
+
+# 也可以忽略 Anaconda 导出的环境文件夹（如果你在本地克隆了环境）
+anaconda-env/
+
+# 忽略 Python 自动生成的缓存
+__pycache__/
+*.pyc
