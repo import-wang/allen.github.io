@@ -10,3 +10,10 @@ anaconda-env/
 # 忽略 Python 自动生成的缓存
 __pycache__/
 *.pyc
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
